@@ -1,2 +1,0 @@
-# Teme-IA
-# Teme-IA
