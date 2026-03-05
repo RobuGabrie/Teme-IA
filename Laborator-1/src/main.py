@@ -2,6 +2,11 @@ from manhattan import manhattan_cityblock, manhattan_manual, read_vectors_from_f
 
 
 def main() -> None:
+    """Incarca vectorii din fisier si afiseaza distantele Manhattan.
+
+    Functia calculeaza distanta in doua moduri:
+    implementare manuala si functia ``cityblock`` din SciPy.
+    """
     input_file = "data/input.txt"
     v1, v2 = read_vectors_from_file(input_file)
 
